@@ -1,0 +1,5 @@
+
+    "rgb_matrix": {
+    "driver": "ws2812"
+    "split_count": [31, 31]
+    }
