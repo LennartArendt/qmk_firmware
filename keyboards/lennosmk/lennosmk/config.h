@@ -10,7 +10,13 @@
 #define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_GRB
 #define WS2812_DRIVER = vendor
 
-#define SELECT_SOFT_SERIAL_SPEED 2 // 2 = 115200, 3 = 250000, 4 = 500000, 5 = 1000000
+//#define SELECT_SOFT_SERIAL_SPEED 2 // 2 = 115200, 3 = 250000, 4 = 500000, 5 = 1000000
+
+#define SERIAL_USART_FULL_DUPLEX   // Enable full duplex operation mode.
+#define SERIAL_USART_TX_PIN 3    // USART TX pin
+#define SERIAL_USART_RX_PIN 4     // USART RX pin
+
+
 
 
 #define RGB_MATRIX_DEFAULT_ON true
@@ -23,7 +29,7 @@
 #define RGB_MATRIX_SAT_STEP 16 // The value by which to increment the saturation per adjustment action
 #define RGB_MATRIX_VAL_STEP 16 // The value by which to increment the brightness per adjustment action
 #define RGB_MATRIX_SPD_STEP 16 // The value by which to increment the animation speed per adjustment action
-#define RGB_MATRIX_LED_COUNT 62
+#define RGB_MATRIX_LED_COUNT 64
 
 
 
