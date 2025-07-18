@@ -38,7 +38,7 @@ led_config_t g_led_config = { {
   { 49, 48, 47, 46, 45, 44 },
   { 43, 42, 41, 40, 39, 38 },
   { 37, 36, 34, 33, 35, NO_LED },
-  { 32, 31, NO_LED, NO_LED, NO_LED, NO_LED },
+  { 32, 31, NO_LED, NO_LED, NO_LED, NO_LED }
  
 }, {
   // LED Index to Physical Position
